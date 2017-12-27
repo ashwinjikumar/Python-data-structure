@@ -14,6 +14,6 @@ for name,count in counts.items():
     if bigname is None or count > bigcount:
         bigname = name
         bigcount = count
-print bigname, bigcount
+print(bigname, bigcount)
 
 #print(counts)
